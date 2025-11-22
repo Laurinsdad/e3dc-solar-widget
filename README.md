@@ -1,6 +1,6 @@
 # E3DC Solar Widget for KDE Plasma
 
-A KDE Plasma widget that displays live power data from your E3DC S10 home power station.
+A KDE Plasma widget that displays live power data from your E3DC S10 home power station. I wanted to see the data on Desktop without fiddeling with the app or homepage. I used Antigravity to build this, with not much experience before, so feel free to optimize it. I think about adding a button to switch of solar mode for the wallbox, so you can start charging the car, but not sure what is the best option for this.
 
 ## Features
 - **Live Data**: Shows Solar Production, Battery Status (Power & SoC), Home Consumption, Grid Power, and Wallbox usage.
