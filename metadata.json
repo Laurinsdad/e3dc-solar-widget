@@ -3,21 +3,21 @@
     "KPlugin": {
         "Authors": [
             {
-                "Email": "mail@christian-frank.com",
+                "Email": "christian.frank.iphone@googlemail.com",
                 "Name": "Christian Frank"
             }
         ],
         "Category": "Utilities",
         "Description": "Displays live solar data from E3DC S10 systems",
         "Icon": "view-refresh",
-        "Id": "com.github.christianfrank.e3dcsolar",
+        "Id": "com.github.Laurinsdad.e3dcsolar",
         "License": "GPL-3.0+",
         "Name": "E3DC Solar Widget",
         "ServiceTypes": [
             "Plasma/Applet"
         ],
         "Version": "1.0",
-        "Website": "https://github.com/ChristianFrank/e3dc-solar-widget"
+        "Website": "https://github.com/Laurinsdad/e3dc-solar-widget"
     },
     "X-Plasma-API-Minimum-Version": "6.0"
 }
