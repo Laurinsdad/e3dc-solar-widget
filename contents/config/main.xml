@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+    <group name="General">
+        <entry name="username" type="String">
+            <label>Email Address</label>
+            <default></default>
+        </entry>
+        <entry name="password" type="Password">
+            <label>E3DC Portal Password</label>
+        </entry>
+        <entry name="refreshInterval" type="Int">
+            <label>Refresh Interval (seconds)</label>
+            <default>60</default>
+        </entry>
+        <entry name="systemSize" type="Int">
+            <label>System Size (Watts) for Bar Scaling</label>
+            <default>10000</default>
+        </entry>
+    </group>
+</kcfg>

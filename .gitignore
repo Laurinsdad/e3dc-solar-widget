@@ -1,0 +1,17 @@
+# KDE/Plasma
+*.kdev4
+*.kate-swp
+.directory
+
+# System
+.DS_Store
+Thumbs.db
+
+# Build artifacts (if any)
+build/
+cmake-build-*/
+
+# User Configuration (Important! Don't commit credentials if they were saved locally)
+# Note: Plasma saves config in ~/.config, not in the widget folder, but just in case:
+*.user
+*.local
