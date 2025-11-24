@@ -26,4 +26,22 @@ Kirigami.FormLayout {
         echoMode: TextInput.Password
         Layout.fillWidth: true
     }
+    
+    SpinBox {
+        id: refreshIntervalField
+        Kirigami.FormData.label: "Refresh Interval (seconds):"
+        from: 5
+        to: 3600
+        stepSize: 5
+        value: 60
+    }
+    
+    SpinBox {
+        id: systemSizeField
+        Kirigami.FormData.label: "System Size (Watts):"
+        from: 1000
+        to: 100000
+        stepSize: 500
+        value: 10000
+    }
 }
